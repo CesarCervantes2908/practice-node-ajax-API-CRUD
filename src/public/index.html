@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+
+    <title>Node Js y AJAX</title>
+</head>
+<body>
+    <h1>AJAX y Node Js</h1>
+    <form action="" id="productForm" method="post">
+        <input type="text" id="newProduct" placeholder="Producto">
+        <button type="submit">Agregar Producto</button>
+    </form>
+    <button id="getProducts">Obtener Productos</button>
+    <table id="productsList">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Name</td>
+                <td>Actions</td>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
